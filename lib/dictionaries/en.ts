@@ -4,7 +4,7 @@ const en = {
   brand: "FitCalc",
   tagline: "Every tool runs in your browser.",
   metaDesc:
-    "Free fitness calculators — BMI, body fat, TDEE calories, ideal weight, one-rep max and running pace. Every formula named at the point of use, everything runs in your browser.",
+    "Free fitness calculators — BMI, body fat, TDEE calories, ideal weight, one-rep max and running pace. Every formula named, everything in your browser.",
 
   nav: {
     tools: "All tools",
