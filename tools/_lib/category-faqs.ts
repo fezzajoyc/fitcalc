@@ -10,74 +10,29 @@ type Faq = { q: string; a: string };
 
 const GLOBAL: Partial<Record<Locale, Faq[]>> = {
   en: [
-    {
-      q: "Is this tool free to use?",
-      a: "Yes, completely free — no signup, no subscription, no daily limits, and no watermarks on the output.",
-    },
-    {
-      q: "Does my data leave my device?",
-      a: "No. The tool runs entirely in your browser with JavaScript. Nothing you type or upload is sent to a server, so it even works offline once the page has loaded.",
-    },
-    {
-      q: "Which browsers does it work in?",
-      a: "Any modern browser — Chrome, Firefox, Safari and Edge on desktop and mobile. No plugins or extensions are needed.",
-    },
+    { q: "Is FitCalc a medical service?", a: "No. FitCalc provides fitness and body metrics calculators for general information — they use standard published formulas, but they are not a diagnosis and do not replace professional advice." },
+    { q: "Do I need to sign up?", a: "Never. FitCalc has no accounts: enter your numbers, read the result, and nothing is stored or transmitted anywhere." },
+    { q: "Can I use FitCalc on my phone?", a: "Yes — the calculators are touch-friendly and run entirely on your device, so fitness and body metrics results appear instantly even on a slow connection." },
   ],
   zh: [
-    {
-      q: "这个工具免费吗?",
-      a: "完全免费 — 无需注册、没有订阅、无每日限额,输出不带水印。",
-    },
-    {
-      q: "我的数据会传到服务器吗?",
-      a: "不会。工具完全在浏览器里用 JavaScript 运行,输入的文件和内容不会发送到任何服务器;页面加载后断网也能用。",
-    },
-    {
-      q: "支持哪些浏览器?",
-      a: "所有现代浏览器 — Chrome、Firefox、Safari、Edge,桌面和移动端通用,无需安装插件。",
-    },
+    { q: "FitCalc是医疗服务吗?", a: "不是。FitCalc提供的是健身与身体指标计算器,用于一般参考 — 采用公开的标准公式,不构成诊断,也不能替代专业建议。" },
+    { q: "需要注册吗?", a: "从不需要。FitCalc没有账号体系:输入数字、看结果,任何信息都不存储不上传。" },
+    { q: "手机上能用吗?", a: "可以 — 计算器对触屏友好,完全在你的设备上运行,健身与身体指标结果即时显示,弱网也能用。" },
   ],
   ja: [
-    {
-      q: "このツールは無料ですか?",
-      a: "完全無料です。登録・課金・回数制限はなく、出力にウォーターマークも入りません。",
-    },
-    {
-      q: "入力したデータは外部に送信されますか?",
-      a: "送信されません。すべてブラウザ内の JavaScript で処理されるため、入力・ファイルはサーバーに送られず、読み込み後はオフラインでも動作します。",
-    },
-    {
-      q: "対応ブラウザは?",
-      a: "Chrome / Firefox / Safari / Edge の最新版(デスクトップ・モバイル共通)。プラグインや拡張機能は不要です。",
-    },
+    { q: "FitCalcは医療サービスですか?", a: "違います。FitCalcのfitness and body metrics計算機は一般的な参考のためのもので、公開された標準式を使用しますが、診断ではなく専門的な助言の代わりにもなりません。" },
+    { q: "登録は必要ですか?", a: "一切不要です。FitCalcにアカウント体系はありません。数値を入れて結果を見るだけで、保存も送信もされません。" },
+    { q: "スマホで使えますか?", a: "使えます。計算機はタッチ操作に対応し、端末内で完結するため、fitness and body metricsの結果は回線が遅くても即座に出ます。" },
   ],
   es: [
-    {
-      q: "¿Esta herramienta es gratis?",
-      a: "Sí, totalmente gratis: sin registro, sin suscripción, sin límites diarios y sin marcas de agua.",
-    },
-    {
-      q: "¿Mis datos salen de mi dispositivo?",
-      a: "No. Todo se procesa con JavaScript en tu navegador; nada se envía a un servidor. Incluso funciona sin conexión una vez cargada la página.",
-    },
-    {
-      q: "¿En qué navegadores funciona?",
-      a: "Cualquier navegador moderno: Chrome, Firefox, Safari y Edge, en escritorio y móvil. Sin plugins ni extensiones.",
-    },
+    { q: "¿FitCalc es un servicio médico?", a: "No. FitCalc ofrece calculadoras de fitness and body metrics como referencia general — usan fórmulas estándar publicadas, pero no son un diagnóstico ni sustituyen el consejo profesional." },
+    { q: "¿Necesito registrarme?", a: "Nunca. FitCalc no tiene cuentas: introduces tus números, lees el resultado y nada se guarda ni se transmite." },
+    { q: "¿Funciona en el móvil?", a: "Sí — las calculadoras están pensadas para táctil y se ejecutan por completo en tu dispositivo, así que los resultados de fitness and body metrics aparecen al instante." },
   ],
   pt: [
-    {
-      q: "Esta ferramenta é gratuita?",
-      a: "Sim, totalmente gratuita — sem cadastro, sem assinatura, sem limites diários e sem marcas d'água.",
-    },
-    {
-      q: "Meus dados saem do dispositivo?",
-      a: "Não. A ferramenta roda inteiramente no seu navegador com JavaScript; nada é enviado a servidores e funciona até offline depois de carregada.",
-    },
-    {
-      q: "Quais navegadores são suportados?",
-      a: "Qualquer navegador moderno — Chrome, Firefox, Safari e Edge, no desktop e no celular. Nenhum plugin necessário.",
-    },
+    { q: "O FitCalc é um serviço médico?", a: "Não. O FitCalc oferece calculadoras de fitness and body metrics como referência geral — usam fórmulas padrão publicadas, mas não são diagnóstico nem substituem orientação profissional." },
+    { q: "Preciso me cadastrar?", a: "Nunca. O FitCalc não tem contas: você digita seus números, lê o resultado e nada é armazenado ou transmitido." },
+    { q: "Funciona no celular?", a: "Sim — as calculadoras são otimizadas para toque e rodam inteiramente no seu dispositivo, então os resultados de fitness and body metrics aparecem na hora." },
   ],
 };
 
