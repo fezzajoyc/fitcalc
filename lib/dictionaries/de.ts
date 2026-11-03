@@ -19,6 +19,10 @@ const de = {
     heroSub:
       "Sechs Rechner für die Zahlen, die Ihr Training prägen — BMI, Körperfett, Kalorien, Idealgewicht, 1RM und Lauftempo. Jedes Ergebnis nennt seine Formel, alles rechnet in Ihrem Browser.",
     browseAll: "Alle Tools ansehen",
+    pinned: "Angepinnt",
+    pin: "Oben anpinnen",
+    unpin: "Nicht mehr anpinnen",
+    popular: "Gerade beliebt",
     categoriesTitle: "Kategorien",
     featuredTitle: "Beliebte Tools",
     trustLocal: "Ihre Zahlen bleiben auf Ihrem Gerät",
@@ -77,6 +81,8 @@ const de = {
     howTo: "So verwenden Sie es",
     faq: "Häufige Fragen",
     related: "Verwandte Tools",
+    nextStep: "Nächste Schritte",
+    copyLink: "Link kopieren",
     privacyNote:
       "Dieses Tool läuft vollständig in Ihrem Browser. Ihre Daten verlassen Ihr Gerät nie — sie werden auf keinen Server hochgeladen.",
     inCategory: "Mehr in {category}",

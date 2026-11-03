@@ -19,6 +19,10 @@ const es: Dictionary = {
     heroSub:
       "Seis calculadoras para los números que moldean el entrenamiento — IMC, grasa corporal, calorías, peso ideal, 1RM y ritmo de carrera. Cada resultado nombra su fórmula y todo se calcula en su navegador.",
     browseAll: "Ver todas las herramientas",
+    pinned: "Fijados",
+    pin: "Fijar arriba",
+    unpin: "Quitar de fijados",
+    popular: "Populares ahora",
     categoriesTitle: "Categorías",
     featuredTitle: "Herramientas populares",
     trustLocal: "Sus números se quedan en su dispositivo",
@@ -74,6 +78,8 @@ const es: Dictionary = {
     howTo: "Cómo usarlo",
     faq: "Preguntas frecuentes",
     related: "Herramientas relacionadas",
+    nextStep: "Siguientes pasos",
+    copyLink: "Copiar enlace",
     privacyNote:
       "Esta herramienta funciona por completo en tu navegador. Tus datos nunca salen de tu dispositivo y no se suben a ningún servidor.",
     inCategory: "Más de {category}",

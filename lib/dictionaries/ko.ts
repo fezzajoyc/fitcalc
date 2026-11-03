@@ -21,6 +21,10 @@ const ko: Dictionary = {
     heroSub:
       "훈련을 만드는 여섯 가지 숫자를 위한 계산기 — BMI, 체지방률, 칼로리, 표준 체중, 1RM, 러닝 페이스. 모든 결과에 공식을 표기하고 전부 브라우저에서 계산됩니다.",
     browseAll: "전체 도구 보기",
+    pinned: "고정됨",
+    pin: "상단에 고정",
+    unpin: "고정 해제",
+    popular: "인기 도구",
     categoriesTitle: "카테고리",
     featuredTitle: "인기 도구",
     trustLocal: "숫자는 기기 안에만 남습니다",
@@ -79,6 +83,8 @@ const ko: Dictionary = {
     howTo: "사용 방법",
     faq: "자주 묻는 질문",
     related: "관련 도구",
+    nextStep: "다음 단계",
+    copyLink: "링크 복사",
     privacyNote:
       "이 도구는 전부 브라우저 안에서 실행됩니다. 데이터는 기기를 떠나지 않으며 어떤 서버로도 업로드되지 않습니다.",
     inCategory: "{category}의 다른 도구",

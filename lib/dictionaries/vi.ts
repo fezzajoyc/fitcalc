@@ -19,6 +19,10 @@ const vi = {
     heroSub:
       "Sáu máy tính cho những con số định hình buổi tập — BMI, tỷ lệ mỡ, calo, cân nặng lý tưởng, 1RM và pace chạy. Mỗi kết quả đều nêu công thức và tất cả tính ngay trên trình duyệt.",
     browseAll: "Xem tất cả công cụ",
+    pinned: "Đã ghim",
+    pin: "Ghim lên đầu",
+    unpin: "Bỏ ghim",
+    popular: "Phổ biến ngay bây giờ",
     categoriesTitle: "Danh mục",
     featuredTitle: "Công cụ phổ biến",
     trustLocal: "Số liệu của bạn nằm lại trên thiết bị",
@@ -77,6 +81,8 @@ const vi = {
     howTo: "Cách sử dụng",
     faq: "Câu hỏi thường gặp",
     related: "Công cụ liên quan",
+    nextStep: "Bước tiếp theo",
+    copyLink: "Sao chép liên kết",
     privacyNote:
       "Công cụ này chạy hoàn toàn trong trình duyệt của bạn. Dữ liệu không bao giờ rời khỏi thiết bị — không được tải lên bất kỳ máy chủ nào.",
     inCategory: "Xem thêm trong {category}",

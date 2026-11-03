@@ -19,6 +19,10 @@ const en = {
     heroSub:
       "Six calculators for the numbers that shape training — BMI, body fat, calories, ideal weight, one-rep max and running pace. Every result names its formula, and everything is computed in your browser.",
     browseAll: "Browse all tools",
+    pinned: "Pinned",
+    pin: "Pin to top",
+    unpin: "Remove from pinned",
+    popular: "Popular right now",
     categoriesTitle: "Categories",
     featuredTitle: "Popular tools",
     trustLocal: "Your numbers stay on your device",
@@ -77,6 +81,8 @@ const en = {
     howTo: "How to use",
     faq: "Frequently asked questions",
     related: "Related tools",
+    nextStep: "Next steps",
+    copyLink: "Copy link",
     privacyNote:
       "This tool runs entirely in your browser. Your data never leaves your device — it is not uploaded to any server.",
     inCategory: "More in {category}",
